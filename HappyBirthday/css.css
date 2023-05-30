@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Sacramento&display=swap');
+
+body{
+    
+background: linear-gradient(to right, #ee0979, #ff6a00); 
+
+
+}
+
+body h1{
+    font-family: "Sacramento", sans-serif;
+    font-weight: 300; 
+}
+
+.htitles{
+    font-size: 70px;
+    text-align: center;
+    color: #302b63;
+    animation: mymove 10s infinite;
+}
+
+@keyframes mymove {
+    0%  {color: #302b63 !important;}
+    33% {color: #0f0c29 !important;}
+    66% {color: #24243e !important;}
+    99% {color: #302b63 !important;}
+}
+
+body p, h2 h3, label{
+    font-family: "Raleway";
+}
+
+.pnames{
+    text-align: center;
+    font-size: 25.5px;
+}
+
+
+    

@@ -1,0 +1,299 @@
+    * {
+  margin: 0;
+  padding: 0;
+  border: 0;
+    }
+
+
+    body{
+        
+        margin-right:20px;
+        margin-left:10px;
+        margin-top:2px;
+        font-family:'Rochester', cursive;
+        background-color:steelblue;
+        font-size:30px;
+        color:aliceblue;
+        text-align: justify; 
+        padding-left: 20px;  
+        padding-right: 20px;       
+    }
+
+
+    #body1{
+        
+        padding:15px;
+        font-family:'Delius', cursive;
+        font-size:20px;
+        
+    }
+
+    .circle {
+      position: relative;
+      margin: 55px;
+      width: 600px;
+      height: 600px;
+      border-radius: 50%;
+      background-color:darkseagreen;
+      background-image:url("https://media.giphy.com/media/wgHY9nSrlTMt2/giphy.gif");
+      border-radius:50%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size:120%;
+      box-shadow: 0px 4px 8px 6px rgba(0,0,0,0.3);
+      
+    }
+
+    .circle li {
+      position: absolute;
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      border: 2px white solid;
+      font-size: 25 'Dancing Script', cursive;
+      list-style-type: none;
+      text-align: center;
+      top: 0;
+      left: 0;
+   
+    }
+
+    .circle a{
+        
+        color: white;
+        text-align: center;
+        padding: 10px 10px;
+        font-size: 18px;
+        display:block;
+            
+    }
+
+
+    .circle li:nth-child(1) {
+      top: 10px;
+      left: 200px;
+
+    }
+
+    .circle li:nth-child(2) {
+      top: 210px;
+      left: 410px;
+
+    }
+
+    .circle li:nth-child(3) {
+      top: 410px;
+      left: 200px;
+
+    }
+
+    .circle li:nth-child(4) {
+      top: 210px;
+      left: 10px;
+    }
+
+    .wrapper {
+      position: relative;
+      overflow: hidden;
+      margin: 0px auto;
+      width: 725px;
+      text-align:center;
+    }
+
+    #me {
+     
+      text-align: center;
+      font: 50px 'Dancing Script', cursive;
+      color: #efefef;
+      position: absolute;
+      top: 265px;
+      left: 262px;
+      z-index: 1;
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      background: #ffffff;
+      border:1px white solid;
+    
+    }
+
+    a{
+    
+        text-decoration: none;
+        color:burlywood;
+    
+    }
+
+    a:hover{
+    
+        text-decoration:underline;
+        color:bisque;
+    
+    }
+
+    #image{
+    
+        width:150px;
+        border-radius:50%;
+        padding:5px;
+        align-content: center;
+        
+    }
+
+     #image1{
+    
+        width:80px;
+        border-radius:20%;
+        padding:5px;
+        align-content: center;
+        
+    }
+
+    h1{
+    
+    font-family:'Rochester', cursive;
+    font-size:45px;
+    padding-left:20px;
+    padding-top:20px;
+    color:yellowgreen;
+        
+    }
+
+    h2{
+    
+    font-family:'Rochester', cursive;
+    font-size:33px;
+    padding-left:10px;
+    padding-top:20px;
+    color:darkred;
+        
+    }
+
+
+    #figure-8{
+    
+        width:100px;
+        
+    }
+
+    #box{
+    
+        font-size:20px;
+        padding-left:15px;
+        text-align:justify;
+        
+    }
+
+    #box1{
+    
+        font-size:20px;
+        padding-right:15px;
+        text-align:justify;
+        
+    
+    }
+
+    #pineapple{
+    
+        width:160px;
+        
+    }
+
+     #strings{
+    
+        width:100px;
+        
+    }
+
+    #avatar{
+    
+        width:200px;
+        border-radius:30%;
+        border:white solid 2px;
+        margin-right:25px;
+        
+    }
+
+    p {
+  
+        margin-top: 0em;
+        margin-bottom: 1em;
+    }
+
+    .ukulele{
+    
+        cursor: url('images/guitar1.png'), auto;	
+    
+    }
+
+    .smiley{
+    
+        cursor: url('images/smiley.png'), auto;	
+    
+    }
+
+    .dragon{
+    
+        cursor: url('images/dragon.png'), auto;	
+    
+    }
+
+    .python{
+    
+        cursor: url('images/python.png'), auto;	
+    
+    }
+
+    .apple{
+    
+        cursor: url('images/apple.png'), auto;	
+    
+    }
+    .footer {
+         position: absolute;
+         right: 0;
+ 	 bottom: 0;
+ 	 left: 0;
+ 	 padding: 1rem;
+ 	 background-color: transparent;
+ 	 text-align: center;
+}
+    #image1{
+  
+        padding-right:15px;
+    
+    }
+
+    .morning{
+    
+        background-color:darkorange;
+    
+    }
+
+     .afternoon{
+    
+        background-color:deepskyblue;
+    
+    }
+
+     .night{
+    
+        background-color:midnightblue;
+    
+    }
+ 
+   .kitten{
+    padding: 9px;
+    color: aliceblue;
+    background-color: orangered;
+    border: none;
+    border-radius: 10px;
+    
+}
+.kitten:hover{
+    padding: 9px;
+    color: aliceblue;
+    background-color: #ff8659;
+    border: none;
+    
+     }

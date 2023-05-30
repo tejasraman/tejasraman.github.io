@@ -1,0 +1,65 @@
+<html>
+
+    <head>
+    
+        <title>Tejas Raman</title>
+       
+        <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Merienda" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Rochester|Arima+Madurai|Delius|Tillana" rel="stylesheet"> 
+        
+         <link href="https://fonts.googleapis.com/css?family=Delius|Satisfy" rel="stylesheet"> 
+      
+        <link rel="stylesheet" type="text/css" href="tejas.css">
+
+    </head>
+        
+    <body>
+
+        <center>
+        <script>
+        var today = new Date ();
+        var hourNow = today.getHours();
+        var greeting;
+        
+        if(hourNow>=18){
+        greeting="Good Evening! Welcome to my Website!";
+        document.body.className = "night";
+        } else if (hourNow>=12){
+        greeting="Good Afternoon! Welcome to my Website!";
+        document.body.className="afternoon";
+        } else if (hourNow>=0){
+        greeting="Good Morning! Welcome to my Website!";
+        document.body.className="morning";
+        } else{
+        greeting="Hi! Welcome to my Website!"
+        }
+        
+        document.write('<h3>' + greeting + '</h3>')
+        </script>
+        </center>
+           
+        <div class="wrapper">
+        
+            <div><a href="about-me.html"><img id="me" src="images/IMG_0271.png"></a></div>
+
+      <div class="circle">
+          
+        <ul>
+            
+            <li><div><a href="learning.html"><img id="image1" src="images/learning.png"></a></div></li>
+            
+            <li><div><a href="ukulele.html"><img id="image1" src="images/guitar.png"></a></div></li>
+            
+            <li><div><a href="computer.html"><img id="image" src="images/macbook.png"></a></div></li>
+            
+            <li><div><a href="kungfu.html"><img id="image" src="images/greatway.png"></a></div></li>
+            
+            
+        </ul>
+      </div>
+
+    </div>
+
+    </body>
+    
+</html>
